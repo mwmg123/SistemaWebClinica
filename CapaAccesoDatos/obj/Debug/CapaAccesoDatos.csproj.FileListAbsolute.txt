@@ -1,0 +1,2 @@
+C:\Users\melis\source\repos\CapaPresentacion\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csprojAssemblyReference.cache
+C:\Users\melis\source\repos\CapaPresentacion\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.CoreCompileInputs.cache
