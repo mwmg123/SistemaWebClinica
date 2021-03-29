@@ -408,7 +408,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CapaEntidades\CapaEntidades.csproj">
-      <Project>{9f7dfc46-774f-46f6-9b7d-78e7bf5d8d70}</Project>
+      <Project>{3792be17-4236-4e1f-b31a-f8906142ab0e}</Project>
       <Name>CapaEntidades</Name>
     </ProjectReference>
     <ProjectReference Include="..\CapaLogicaNegocio\CapaLogicaNegocio.csproj">

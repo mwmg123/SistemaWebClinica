@@ -15,8 +15,10 @@ namespace CapaAccesoDatos
         {
 
         }
+        // Retorna una conexion
         public static Conexion getInstance()
         {
+            // Si no esta "instanciada" entonces crea un nuevo objeto de la clase conexion.
             if (conexion == null)
             {
                 conexion = new Conexion();
@@ -29,7 +31,7 @@ namespace CapaAccesoDatos
         public SqlConnection ConexionBD()
         {
             SqlConnection conexion = new SqlConnection();
-            conexion.ConnectionString = "Data Source=.;Initial Catalog=DBClinica;User ID=sa;Password=79138524565";
+            conexion.ConnectionString = "Data Source=localhost; Initial Catalog=DBClinica; User ID=sa; Password=79138524565";
             return conexion;
         }
     }

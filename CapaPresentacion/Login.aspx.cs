@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using CapaEntidades;
+using CapaLogicaNegocio;
 
 namespace CapaPresentacion
 {
@@ -16,17 +18,17 @@ namespace CapaPresentacion
 
         protected void btnIngresar_Click(object sender, EventArgs e)
         {
-            string user = txtUsuario.Text;
-            string password = txtPassword.Text;
-            string userName = "jorge";
-            string passName = "jorge";
-            if (user.Equals(userName) && password.Equals(passName))
+            // Ya tengo los datos que corresponden para el login
+            Empleado objEmpleado = EmpleadoLN.getInstance().AccesoSistema(txtUsuario.Text, txtPassword.Text);
+
+            if (objEmpleado != null)
             {
-                Response.Write("<script>alert('Usuario Correcto')</script>");
+                // significa que si ha accedido a la base de datos y que a su vez ha traido un objeto
+                Response.Write("<script>alert('USUARIO CORRECTO.')</script>");
             }
             else
             {
-                Response.Write("<script>alert('Usuario Incorrecto')</script>");
+                Response.Write("<script>alert('USUARIO INCORRECTO.')</script>");
             }
         }
     }

@@ -41,16 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="EmpleadoLN.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CapaAccesoDatos\CapaAccesoDatos.csproj">
-      <Project>{2f478bd0-6af4-4bd2-9a16-8417d07134d7}</Project>
+      <Project>{cb8cc5a2-ae24-4b5b-92f4-443f6f92cd32}</Project>
       <Name>CapaAccesoDatos</Name>
     </ProjectReference>
     <ProjectReference Include="..\CapaEntidades\CapaEntidades.csproj">
-      <Project>{9f7dfc46-774f-46f6-9b7d-78e7bf5d8d70}</Project>
+      <Project>{3792be17-4236-4e1f-b31a-f8906142ab0e}</Project>
       <Name>CapaEntidades</Name>
     </ProjectReference>
   </ItemGroup>
