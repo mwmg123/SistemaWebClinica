@@ -31,7 +31,7 @@ namespace CapaAccesoDatos
         public SqlConnection ConexionBD()
         {
             SqlConnection conexion = new SqlConnection();
-            conexion.ConnectionString = "Data Source=localhost; Initial Catalog=DBClinica; User ID=sa; Password=79138524565";
+            conexion.ConnectionString = "Data Source=DESKTOP-K03FTIO\\MWMG;Initial Catalog=DBClinica; Integrated Security = True";
             return conexion;
         }
     }
