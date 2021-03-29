@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace CapaEntidades
 {
-    class TipoEmpleado
+    public class TipoEmpleado
     {
         public int ID { get; set; }
         public String Descripcion { get; set; }
         public bool Estado { get; set; }
 
-        public TipoEmpleado ()
+        public TipoEmpleado()
         {
 
         }

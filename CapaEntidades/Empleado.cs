@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CapaEntidades
 {
-    class Empleado
+    public class Empleado
     {
         public Empleado(int ID, TipoEmpleado RTipoEmpleado, string Nombre, string ApPaterno, string ApMaterno, string NroDocumento, bool Estado, string Imagen, string Usuario, string Clave)
         {
@@ -22,7 +22,7 @@ namespace CapaEntidades
             this.Clave = Clave;
         }
 
-        public Empleado ()
+        public Empleado()
         {
 
         }
@@ -37,7 +37,5 @@ namespace CapaEntidades
         public String Imagen { get; set; }
         public String Usuario { get; set; }
         public String Clave { get; set; }
-
-
     }
 }
