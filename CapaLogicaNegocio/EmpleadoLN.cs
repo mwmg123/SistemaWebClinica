@@ -36,7 +36,7 @@ namespace CapaLogicaNegocio
             catch (Exception ex)
             {
                 throw ex;
-            }
+            } 
         }
     }
 }
