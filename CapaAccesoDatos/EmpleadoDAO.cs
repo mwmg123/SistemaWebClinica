@@ -38,14 +38,14 @@ namespace CapaAccesoDatos
             {
                 // Genera la instancia y conecta.
                 conexion = Conexion.getInstance().ConexionBD();
+                // Abrir conexion
+                conexion.Open();
                 // Guarda en cmd el comando que se ejecutara en el procedimiento almacenado.
                 cmd = new SqlCommand("spAccesoSistema", conexion);
                 cmd.CommandType = CommandType.StoredProcedure;
                 // Enviar parametros a la consulta (user, pass).
                 cmd.Parameters.AddWithValue("@prmUser", user);
                 cmd.Parameters.AddWithValue("@prmPass", pass);
-                // Abrir conexion
-                conexion.Open();
                 // Ejecutar el metodo.
                 dr = cmd.ExecuteReader();
 
