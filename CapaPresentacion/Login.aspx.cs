@@ -25,6 +25,7 @@ namespace CapaPresentacion
             {
                 // significa que si ha accedido a la base de datos y que a su vez ha traido un objeto
                 Response.Write("<script>alert('USUARIO CORRECTO.')</script>");
+                Response.Redirect("PanelGeneral.aspx");
             }
             else
             {
