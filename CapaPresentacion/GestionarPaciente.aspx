@@ -46,6 +46,8 @@
                         </div>
                         <div class="form-group">
                             <asp:DropDownList ID="ddlSexo" runat="server" CssClass="form-control">
+                                <asp:ListItem Text="Masculino" />
+                                <asp:ListItem Text="Femenino" />
                             </asp:DropDownList>
                         </div>
                         <div class="form-group">
@@ -75,7 +77,7 @@
                 <table>
                     <tr>
                         <td>
-                            <asp:Button ID="btnRegistrar" Text="Registrar" runat="server" CssClass="btn btn-primary" Width="200px" />
+                            <asp:Button ID="btnRegistrar" Text="Registrar" runat="server" CssClass="btn btn-primary" Width="200px" OnClick="btnRegistrar_Click" />
                         </td>
                         <td>
                             &nbsp;&nbsp;&nbsp;&nbsp; 
