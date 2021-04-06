@@ -137,14 +137,14 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            <i class="fa fa-dashboard"></i>
+                        <a href="GestionarPaciente.aspx">
+                            <i class="fa fa-th"></i>
                             <span>Registro de Pacientes</span>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <i class="fa fa-dashboard"></i>
+                            <i class="fa fa-th"></i>
                             <span>Reserva de Citas</span>
                         </a>
                     </li>
